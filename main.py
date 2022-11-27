@@ -78,7 +78,7 @@ def c_donasi(update: Update, ctx: CallbackContext) -> None:
 	
 	text = (
 		"Jika anda menyukai Bot ini dan ingin memberikan donasi serta dukungan agar Bot ini tetap aktif, Bisa melalui link dibawah ini :",
-		"https://trakteer.id/JagoanRedesign",
+		"trakteer.id/JagoanRedesign/tip",
 	)
 	ctx.bot.send_message(chat_id = update.effective_chat.id, text = '\n'.join(text))
 
