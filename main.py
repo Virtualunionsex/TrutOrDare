@@ -86,7 +86,7 @@ def c_help(update: Update, ctx: CallbackContext) -> None:
 	"""General info about the bot and command help."""
 	
 	text = (
-		"🔸Perintah Untuk Bot Trut or Dare🔸\n",
+		"Perintah Untuk Bot Trut or Dare\n",
 		"/dare atau /d : Memberikan Tantangan",
 		"/truth atau /t : Memberikan Pertanyaan",
 		"/donasi : Memberikan Donasi Atau Dukungan",
