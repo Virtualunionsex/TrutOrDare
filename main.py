@@ -57,7 +57,7 @@ def c_start(update: Update, ctx: CallbackContext) -> None:
 	"""General info about the bot and command help."""
 	
 	text = (
-		"Ini adalah bot TrutOrDare khusus untuk grup, kirim command di grup.",
+		"Ini adalah bot Trut or Dare khusus untuk grup, kirim command di grup.",
 	)
 	ctx.bot.send_message(chat_id = update.effective_chat.id, text = '\n'.join(text))
 
@@ -78,7 +78,7 @@ def c_donasi(update: Update, ctx: CallbackContext) -> None:
 	
 	text = (
 		"Jika anda menyukai Bot ini dan ingin memberikan donasi serta dukungan agar Bot ini tetap aktif, Bisa melalui link dibawah ini :",
-		"https://t.me/TeleDonateSen",
+		"https://trakteer.id/JagoanRedesign",
 	)
 	ctx.bot.send_message(chat_id = update.effective_chat.id, text = '\n'.join(text))
 
@@ -86,12 +86,12 @@ def c_help(update: Update, ctx: CallbackContext) -> None:
 	"""General info about the bot and command help."""
 	
 	text = (
-		"✿Perintah Untuk Bot TrutOrDare✿\n",
+		"🔸Perintah Untuk Bot Trut or Dare🔸\n",
 		"/dare atau /d : Memberikan Tantangan",
 		"/truth atau /t : Memberikan Pertanyaan",
 		"/donasi : Memberikan Donasi Atau Dukungan",
 		"/help : Bantuan\n",
-		"✿Untuk Request TrutOrDare Bisa Klik Bot @RequestTrutDare_Bot",
+		"Untuk Request Trut or Dare Bisa Klik Bot @Chat4Robot",
 	)
 	ctx.bot.send_message(chat_id = update.effective_chat.id, text = '\n'.join(text))
 
