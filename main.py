@@ -49,7 +49,7 @@ database = {
 
 ## Setup.
 print("[Set-Up] Setting up bot..")
-updater = Updater(token = CONFIG['BOT_TOKEN', "5940961389:AAFuoDsX0JpYKH4l_k8gCZc6yzg6uDsdRCc"])
+updater = Updater(token = CONFIG['BOT_TOKEN'])
 dispatcher = updater.dispatcher
 
 ## Commands.
