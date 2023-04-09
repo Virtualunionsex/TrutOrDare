@@ -57,7 +57,7 @@ def c_start(update: Update, ctx: CallbackContext) -> None:
 	"""General info about the bot and command help."""
 	
 	text = (
-		"Ini adalah bot Truth or Dare khusus untuk grup, kirim command di grup.",
+		"Ini adalah bot Truth or Dare khusus untuk grup, kirim command di grup.\n\\nPerintah Untuk Bot Truth or Dare: \n/dare atau /d : Memberikan Tantangan\n/truth atau /t : Memberikan Pertanyaan\n/donasi : Memberikan Donasi Atau Dukungan\n/help : Bantuan\n\nUntuk Request Truth or Dare Bisa Hub @azure_id",
 	)
 	ctx.bot.send_message(chat_id = update.effective_chat.id, text = '\n'.join(text))
 
